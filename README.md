@@ -1,7 +1,16 @@
 # Angular Restaurant Application
 A simple Restaurant app using Angular, Bootstrap and .Net Framework ASP.NET Web API.
 
-## Fun following scripts
+---
+## Ordering process
+![alt "One Order"](images/order-site.PNG "One Order" )
+
+## All current Orders 
+![alt "Order List"](images/orders-site.PNG "Order List")
+
+## Installation following scripts
+### Microsoft SQL Server Management Studio
+ * Run the SQLDBScript.sql to create the Database
 ### Angular
  * Run npm install command using node packet manager. [Download node here.](https://nodejs.org/en/)
 ### WebAPI

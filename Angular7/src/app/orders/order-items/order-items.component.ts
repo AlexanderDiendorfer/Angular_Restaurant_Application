@@ -65,7 +65,7 @@ export class OrderItemsComponent implements OnInit {
 	validateForm(formData: OrderItem) {
 		this.isValid = true;
 		if (formData.ItemID == 0) this.isValid = false;
-		else if (formData.Quantity == 0) this.isValid = false;
+		if (formData.Quantity == 0) this.isValid = false;
 		return this.isValid;
 	}
 }

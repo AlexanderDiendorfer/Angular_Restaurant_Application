@@ -1,11 +1,12 @@
 # Angular Restaurant Application
 A simple Restaurant app using Angular, Bootstrap and .Net Framework ASP.NET Web API.
----
+
 ## Ordering process
 ![alt "One Order"](images/order-site.PNG "One Order" )
 
 ## All current Orders 
 ![alt "Order List"](images/orders-site.PNG "Order List")
+
 ---
 ## Installation via the following scripts
 ### Microsoft SQL Server Management Studio

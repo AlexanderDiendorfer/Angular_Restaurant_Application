@@ -5,6 +5,7 @@
         <label>Food Item</label>
         <select name="ItemID" #ItemID="ngModel" [(ngModel)]="formData.ItemID" class="form-control">
                 <option value="0">-Select</option>
+                <option *ngFor="let item of itemList" value="{{ item.itemID }}">{{ item.Name }}</option>
         </select>
     </div>
     <div class="form-row">
